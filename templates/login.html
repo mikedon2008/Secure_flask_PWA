@@ -9,11 +9,14 @@
 <body>
     <main>
         <form method="post" action="/login_validation">
-            <input type="email" name="email" placeholder="Enter email"><br>
-            <input type="password" name="password" placeholder="Enter password"><br>
-            <button type="submit" value="login">login</button>
+            <input type="email" name="email" placeholder="Enter email" required><br>
+            <input type="password" name="password" placeholder="Enter password" required><br>
+            <button type="submit" value="login">Login</button>
         </form>
-        <p>Don't have an account?<br><a href="#">Create an account</a></p>
+
+        <p>Don't have an account?<br>
+            <a href="#">Create an account</a>
+        </p>
     </main>
 </body>
 </html>
